@@ -1,0 +1,54 @@
+.charactersPageContainer {
+  padding: 32px;
+  padding-left: 152px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  position: relative;
+
+  h1 {
+    display: block;
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+
+  .routeButtonscharacters {
+    margin: 16px 0px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .characterListSection {
+    min-width: 70%;
+  }
+
+  .characterList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    position: relative;
+    min-width: 700px;
+
+    .characterList__planetsdropdown {
+      position: absolute;
+      right: 200px;
+      top: -55px;
+    }
+
+    .containerCardButton {
+      padding: 0;
+      margin: 0;
+      border: none;
+    }
+  }
+
+  .addcharacterButton {
+    position: fixed;
+    bottom: 100px;
+    right: 520px;
+  }
+}

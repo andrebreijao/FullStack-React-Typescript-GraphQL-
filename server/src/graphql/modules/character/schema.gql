@@ -1,0 +1,35 @@
+type Character {
+  id: Int
+  name: String
+  description: String
+  picture_url: String
+  planet: Planet
+  friendsCount: Int
+  friends(limit: Int): [Character]
+}
+
+input CharacterInput {
+  name: String
+  description: String
+  picture_url: String
+  planet: String
+  listOfFriends: [Int]
+}
+
+input FriendshipInput {
+  person1Id: Int
+  person2Id: Int
+}
+
+type Query {
+  characters: [Character]
+  character(id: ID): Character
+}
+
+type Mutation {
+  createCharacter(data: CharacterInput): Character
+  updateCharacter(id: Int!, data: PlanetInput): Character
+  deleteCharacter(filter: filterPlanet): Boolean
+  createFriendship(data: FriendshipInput): Boolean
+  deleteFriendship(data: FriendshipInput): Boolean
+}

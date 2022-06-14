@@ -1,0 +1,46 @@
+.planetsPageContainer {
+  padding: 32px;
+  padding-left: 152px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
+  h1 {
+    display: block;
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+
+  .routeButtonsPlanets {
+    margin: 16px 0px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .planetListSection {
+    min-width: 70%;
+  }
+
+  .planetList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    position: relative;
+
+    .containerCardButton {
+      padding: 0;
+      margin: 0;
+      border: none;
+    }
+  }
+
+  .addPlanetButton {
+    position: fixed;
+    bottom: 100px;
+    right: 520px;
+  }
+}

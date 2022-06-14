@@ -1,0 +1,32 @@
+type Planet {
+  id: Int
+  name: String
+  description: String
+  code: String
+  picture_url: String
+  population: Int
+  characters(limit: Int): [Character]
+}
+
+input PlanetInput {
+  name: String!
+  description: String!
+  code: String!
+  picture_url: String!
+}
+
+input filterPlanet {
+  id: Int
+  code: String
+}
+
+type Query {
+  planets(pageSize: Int, page: Int): [Planet]
+  planet(id:ID): Planet
+}
+
+type Mutation {
+  createPlanet(data: PlanetInput): Planet
+  updatePlanet(id: Int!, data: PlanetInput): Planet
+  deletePlanet(filter: filterPlanet):Boolean
+}

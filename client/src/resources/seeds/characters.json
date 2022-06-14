@@ -1,0 +1,50 @@
+[
+  {
+    "_id": 324234,
+    "name": "Chewbacca",
+    "description": "Chewbacca, known affectionately to his friends as Chewie, is a Wookiee male warrior, smuggler, mechanic, pilot, and resistance fighter.",
+    "planet": "FN-BBA-22",
+    "pictureUrl": "https://www.hojeemdia.com.br/image/policy:1.711510.1628585960:1628585960/image.jpg?w=1280&",
+    "friendsNumber": 20
+  },
+  {
+    "_id": 323423423424234,
+    "name": "Norbert Ériu",
+    "description": "Norbert is a farmer.",
+    "planet": "FN-BBA-22",
+    "pictureUrl": "https://images.unsplash.com/photo-1588422333078-44ad73367bcb",
+    "friendsNumber": 3320
+  },
+  {
+    "_id": 33423424234,
+    "name": "Sümeyye Sitora",
+    "description": "Sümeyye is a teacher.",
+    "planet": "FN-BBA-22",
+    "pictureUrl": "https://images.unsplash.com/photo-1606103955054-99913abd77c8",
+    "friendsNumber": 12
+  },
+  {
+    "_id": 423424234,
+    "name": "Cori Blagovesta",
+    "description": "Cori is known as the most teasing person in the galaxy.",
+    "planet": "XT-FOE-43",
+    "pictureUrl": "https://images.unsplash.com/photo-1530071100468-90954e4921d0",
+    "friendsNumber": 30
+  },
+  {
+    "_id": 4224234,
+    "name": "Nisha Amala",
+    "description": "Nisha is curious about what happens in the Outer Rim",
+    "planet": "XT-FOE-43",
+    "pictureUrl": "https://images.unsplash.com/photo-1592210566091-9e18a5fc01b4",
+    "friendsNumber": 43
+  },
+  {
+    "_id": 42234,
+    "name": "Spyro Gerarda",
+    "description": "Spyro is Spyro",
+    "planet": "EM-PVA-98",
+    "pictureUrl": "https://images.unsplash.com/photo-1541364983171-a8ba01e95cfc",
+    "friendsNumber": 20
+  }
+]

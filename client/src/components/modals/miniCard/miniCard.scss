@@ -1,0 +1,35 @@
+.miniCardContainer {
+  display: flex;
+
+  // todo make the card more responsive to user input, hoover, active
+}
+.characterMiniCardImage {
+  height: 72px;
+  width: 72px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  object-fit: cover;
+  margin: 8px;
+}
+
+.miniCardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.miniCardName {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.miniCardFriendsNumber {
+  height: 18px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #121c33;
+  opacity: 0.6;
+}

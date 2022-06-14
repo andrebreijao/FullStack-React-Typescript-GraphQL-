@@ -1,0 +1,192 @@
+/* ==========================================================================
+   Dropdown menu
+   ========================================================================== */
+
+.container-planet {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+}
+
+/* DROPDOWN
+   ============================================ */
+
+.dd-wrapper-planet {
+  display: flex;
+  min-height: 38px;
+  flex-wrap: wrap;
+  width: 225px;
+  position: relative;
+  justify-content: flex-start;
+
+  .friendsDropDownLabel-planet {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .dd-header-planet {
+    background-color: #eaeaeb;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+    padding: 0px 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &__title-planet {
+      display: flex;
+      justify-content: flex-start;
+      justify-items: flex-start;
+      align-items: flex-start;
+      cursor: pointer;
+    }
+
+    &__title--bold-planet {
+      font-weight: bold;
+    }
+
+    &__action-planet {
+      padding-top: 5px;
+      transition: all 0.5s 0s;
+      z-index: 1;
+    }
+
+    button {
+      background-color: rgba(18, 28, 51, 0);
+      border: none;
+      position: absolute;
+      right: 40px;
+      cursor: pointer;
+    }
+  }
+  .rotate {
+    transform: rotate(180deg);
+  }
+
+  .selectedCharacterCard-planet {
+    background-color: rgb(18, 28, 51, 0.1);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    height: 32px;
+    width: auto;
+    cursor: default;
+    z-index: 2;
+    img {
+      height: 28px;
+      width: 28px;
+      border-radius: 4px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0px 4px;
+    }
+    button {
+      margin-left: auto;
+      padding: 0px;
+      margin: 0px;
+      margin-left: 8px;
+      background-color: rgb(18, 28, 51, 0);
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  .dd-search-planet {
+    margin: 0;
+    margin-top: 10px;
+    position: absolute;
+    top: 40px;
+    max-height: 150px;
+    overflow: auto;
+    z-index: 2;
+
+    width: 87%;
+    height: 20px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 8px 16px;
+
+    outline: 1px solid gray;
+  }
+
+  .dd-list-planet {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-top: 25px;
+    position: absolute;
+    top: 61px;
+    max-height: 150px;
+    overflow: auto;
+    z-index: 3;
+
+    .dd-list__planetSelectCard-planet {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-radius: 4px;
+      z-index: 3;
+
+      img {
+        height: 38px;
+        width: 38px;
+        object-fit: cover;
+        border-radius: 4px;
+      }
+    }
+
+    li {
+      list-style-type: none;
+
+      &:first-of-type {
+        > button {
+          border-top: 1px solid #ccc;
+          border-top-left-radius: 4px;
+          border-top-right-radius: 4px;
+        }
+      }
+
+      &:last-of-type > button {
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        font-size: 16px;
+        padding: 0px 20px;
+        border: 0;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        text-align: left;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        background-color: #f5f5f5;
+
+        &:hover,
+        &:focus {
+          cursor: pointer;
+          font-weight: bold;
+          background-color: #ccc;
+        }
+      }
+    }
+  }
+}

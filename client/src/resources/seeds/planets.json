@@ -1,0 +1,130 @@
+[
+  {
+    "_id": "1",
+    "name": "Tatooine",
+    "description": "Tatooine is a sparsely inhabited circumbinary desert planet located in the galaxy's Outer Rim Territories.",
+    "code": "XT-FOE-43",
+    "pictureUrl": "https://upload.wikimedia.org/wikipedia/en/6/6d/Tatooine_%28fictional_desert_planet%29.jpg",
+    "population": 234
+  },
+  {
+    "_id": "2",
+    "name": "Aargau",
+    "description": "Aargau is a planet in the Zug system of the Core Worlds region, not far from Coruscant and the Corellian Run.",
+    "code": "FN-BBA-22",
+    "pictureUrl": "https://static.wikia.nocookie.net/starwars/images/a/a9/Aargau.jpg",
+    "population": 992
+  },
+  {
+    "_id": "3",
+    "name": "Malastare",
+    "description": "Malastare is the high-gravity homeworld of the quadrupedal Dug race, on the Hydian Way.",
+    "code": "EM-PVA-98",
+    "pictureUrl": "https://static.wikia.nocookie.net/starwars/images/d/df/MalastareNEGAS.jpg",
+    "population": 774
+  },
+  {
+    "_id": "4",
+    "name": "Tatooine",
+    "description": "Tatooine is a sparsely inhabited circumbinary desert planet located in the galaxy's Outer Rim Territories.",
+    "code": "XT-FOE-43",
+    "pictureUrl": "https://upload.wikimedia.org/wikipedia/en/6/6d/Tatooine_%28fictional_desert_planet%29.jpg",
+    "population": 234
+  },
+  {
+    "_id": "5",
+    "name": "Aargau",
+    "description": "Aargau is a planet in the Zug system of the Core Worlds region, not far from Coruscant and the Corellian Run.",
+    "code": "FN-BBA-22",
+    "pictureUrl": "https://static.wikia.nocookie.net/starwars/images/a/a9/Aargau.jpg",
+    "population": 234
+  },
+  {
+    "_id": "6",
+    "name": "Malastare",
+    "description": "Malastare is the high-gravity homeworld of the quadrupedal Dug race, on the Hydian Way.",
+    "code": "EM-PVA-98",
+    "pictureUrl": "https://static.wikia.nocookie.net/starwars/images/d/df/MalastareNEGAS.jpg",
+    "population": 234
+  },
+  {
+    "_id": "7",
+    "name": "Tatooine",
+    "description": "Tatooine is a sparsely inhabited circumbinary desert planet located in the galaxy's Outer Rim Territories.",
+    "code": "XT-FOE-43",
+    "pictureUrl": "https://upload.wikimedia.org/wikipedia/en/6/6d/Tatooine_%28fictional_desert_planet%29.jpg",
+    "population": 234
+  },
+  {
+    "_id": "8",
+    "name": "Aargau",
+    "description": "Aargau is a planet in the Zug system of the Core Worlds region, not far from Coruscant and the Corellian Run.",
+    "code": "FN-BBA-22",
+    "pictureUrl": "https://static.wikia.nocookie.net/starwars/images/a/a9/Aargau.jpg",
+    "population": 234
+  },
+  {
+    "_id": "9",
+    "name": "Malastare",
+    "description": "Malastare is the high-gravity homeworld of the quadrupedal Dug race, on the Hydian Way.",
+    "code": "EM-PVA-98",
+    "pictureUrl": "https://static.wikia.nocookie.net/starwars/images/d/df/MalastareNEGAS.jpg",
+    "population": 234
+  },
+  {
+    "_id": "10",
+    "name": "Tatooine",
+    "description": "Tatooine is a sparsely inhabited circumbinary desert planet located in the galaxy's Outer Rim Territories.",
+    "code": "XT-FOE-43",
+    "pictureUrl": "https://upload.wikimedia.org/wikipedia/en/6/6d/Tatooine_%28fictional_desert_planet%29.jpg",
+    "population": 234
+  },
+  {
+    "_id": "12",
+    "name": "Aargau",
+    "description": "Aargau is a planet in the Zug system of the Core Worlds region, not far from Coruscant and the Corellian Run.",
+    "code": "FN-BBA-22",
+    "pictureUrl": "https://static.wikia.nocookie.net/starwars/images/a/a9/Aargau.jpg",
+    "population": 234
+  },
+  {
+    "_id": "13",
+    "name": "Malastare",
+    "description": "Malastare is the high-gravity homeworld of the quadrupedal Dug race, on the Hydian Way.",
+    "code": "EM-PVA-98",
+    "pictureUrl": "https://static.wikia.nocookie.net/starwars/images/d/df/MalastareNEGAS.jpg",
+    "population": 234
+  },
+  {
+    "_id": "sdfa8",
+    "name": "Aargau",
+    "description": "Aargau is a planet in the Zug system of the Core Worlds region, not far from Coruscant and the Corellian Run.",
+    "code": "FN-BBA-22",
+    "pictureUrl": "https://static.wikia.nocookie.net/starwars/images/a/a9/Aargau.jpg",
+    "population": 234
+  },
+  {
+    "_id": "3249",
+    "name": "Malastare",
+    "description": "Malastare is the high-gravity homeworld of the quadrupedal Dug race, on the Hydian Way.",
+    "code": "EM-PVA-98",
+    "pictureUrl": "https://static.wikia.nocookie.net/starwars/images/d/df/MalastareNEGAS.jpg",
+    "population": 234
+  },
+  {
+    "_id": "asdf1j0",
+    "name": "Tatooine",
+    "description": "Tatooine is a sparsely inhabited circumbinary desert planet located in the galaxy's Outer Rim Territories.",
+    "code": "XT-FOE-43",
+    "pictureUrl": "https://upload.wikimedia.org/wikipedia/en/6/6d/Tatooine_%28fictional_desert_planet%29.jpg",
+    "population": 234
+  },
+  {
+    "_id": "1asdfl2",
+    "name": "Aargau",
+    "description": "Aargau is a planet in the Zug system of the Core Worlds region, not far from Coruscant and the Corellian Run.",
+    "code": "FN-BBA-22",
+    "pictureUrl": "https://static.wikia.nocookie.net/starwars/images/a/a9/Aargau.jpg",
+    "population": 234
+  }
+]
